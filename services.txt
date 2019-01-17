@@ -1,0 +1,56 @@
+
+1. http://localhost:8080/Chat/sp/add/city , POST
+
+ 
+
+                Input: {
+
+                                "city": "A"
+
+}
+
+               
+
+2. http://localhost:8080/Chat/sp/cities , GET
+
+               
+
+3. http://localhost:8080/Chat/sp/add/connected/city , POST
+
+ 
+
+                Input: {
+
+                                "city": "1",
+
+                                "connectedCity": "2",
+
+                                "distance": "10"
+
+                }
+
+ 
+
+4. http://localhost:8080/Chat/sp/calculate/path , POST
+
+ 
+
+                Input: {
+
+                                "source": "1",
+
+                                "dest": "3",
+
+                }
+
+               
+
+                Output: {
+
+                                "status": "SUCCESS",
+
+                                "message": "Shortest path is 3"
+
+                }
+
+ 
